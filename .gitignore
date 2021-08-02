@@ -1,4 +1,5 @@
 /.vscode
 /data
-/re.cpp
-/re.exe
+/**/*.exe
+/test.cpp
+/test.exe
