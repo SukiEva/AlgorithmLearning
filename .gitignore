@@ -1,9 +1,8 @@
 /.vscode
 /.git
 /data
-/**/*.exe
-/**/*.out
-/**/*.out
-/**/*.o
+/***/*.exe
+/***/*.out
+/***/*.o
 /*.exe
 /*.out
