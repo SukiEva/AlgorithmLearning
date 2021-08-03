@@ -1,13 +1,6 @@
 #include <iostream>
+#include "SqList.h"
 using namespace std;
-
-/* static */
-#define MaxSize 50
-#define ElemType int
-struct SqList{
-    ElemType data[MaxSize];
-    int length;
-}SqList1;
 
 /* 1.删除最小值的元素 */
 ElemType ListDeleteMin(SqList &L){
@@ -23,7 +16,7 @@ ElemType ListDeleteMin(SqList &L){
             MinPos = i;
         }
     }
-    L.data[pos]=L.data[L.length-1];
+    L.data[MinPos]=L.data[L.length-1];
     L.length--;
     return Min;
 }
@@ -55,7 +48,7 @@ bool ListDeleteBetween(SqList &L, ElemType s, ElemType t){
     if (L.length==0 || s>=t) return false;
     int sp=0,tp=0;
     bool flag = false;
-    fot (int i=0; i<L.length; i++){
+    for (int i=0; i<L.length; i++){
         if (L.data[i]>s && !flag){
             sp = i;
             flag=true;
@@ -75,12 +68,40 @@ bool ListDeleteBetween(SqList &L, ElemType s, ElemType t){
 
 /* 5.顺序表删除值在 [s,t]间的所有元素 */
 bool ListDeleteBetween2(SqList &L, ElemType s, ElemType t){
-    int k = 0;
+    int k = 0; // 维护区间内数的个数
     if (L.length==0 || s>=t) return false;
     for (int i=0; i<L.length; i++){
-        if (L.data[i]>=s && L.data[i]<=t) k++;
-        else L.data[i-k]=L.data[i];
+        if (L.data[i]>=s && L.data[i]<=t) k++; 
+        else L.data[i-k]=L.data[i]; // 将不在区间内的数向前移动 k 个单位
     }
     L.length-=k;
     return true;
+}
+
+/* 6.有序顺序表中删除值重复的元素 */
+bool ListDeleteRepeat(SqList &L){
+    if (L.length==0) return false;
+    int k = 0;
+    for (int i=1; i<L.length; i++){
+        if (L.data[i]==L.data[i-1]) k++;
+        else L.data[i-k] = L.data[i];
+    }
+    L.length -= k;
+    return true;
+}
+
+
+int main(){
+    SqList SqList1;
+    SqList1.data[0]=1;
+    SqList1.data[1]=2;
+    SqList1.data[2]=2;
+    SqList1.length=3;
+    cout<<SqList1.length<<endl;
+    ListDeleteRepeat(SqList1);
+    for (int i=0; i<SqList1.length; i++)
+        cout<<SqList1.data[i]<<" ";
+
+
+    return 0;
 }

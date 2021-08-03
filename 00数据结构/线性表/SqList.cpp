@@ -1,24 +1,7 @@
 // Created on 自闭每一天.
-
 #include <iostream>
+#include "SqList.h"
 using namespace std;
-
-/* static */
-#define MaxSize 50
-#define ElemType int
-struct SqList{
-    ElemType data[MaxSize];
-    int length;
-}SqList1;
-
-/* dynamic 
-#define InitSize 100
-struct  SeqList{
-    ElemType *data;
-    int length;
-}SeqList;
-SeqList.data = new int [InitSize]; // malloc
-*/
 
 bool ListInsert(SqList &L, int i, ElemType e){  // O(n)
     if (i<1 || i>L.length+1) return false;  
@@ -47,7 +30,7 @@ int LocateElem(SqList &L, ElemType e){  //按值查找 O(n) 按位置查找 O(1)
 }
 
 int main(){
-
+    SqList SqList1;
     ListInsert(SqList1,1,333);
     cout<<LocateElem(SqList1,333)<<endl;
     return 0;

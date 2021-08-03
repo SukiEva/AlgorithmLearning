@@ -3,5 +3,7 @@
 /data
 /**/*.exe
 /**/*.out
+/**/*.out
+/**/*.o
 /*.exe
 /*.out
