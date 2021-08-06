@@ -17,8 +17,8 @@ class Solution {
             p = p->next;
         }
         p->next = (l1 == nullptr) ? l2 : l1;
-        ListNode* ans = h->next;
+        p = h->next;
         delete h;
-        return ans;
+        return p;
     }
 };
