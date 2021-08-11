@@ -15,7 +15,6 @@ PS : 此README由程序自动生成
 3. [0160-相交链表-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/02链表/0160-相交链表-easy.cpp)
 4. [0203-移除链表元素-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/02链表/0203-移除链表元素-easy.cpp)
 5. [0206-反转链表-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/02链表/0206-反转链表-easy.cpp)
-6. [InitNode](https://github.com/SukiEva/AlgorithmLearning/blob/master/02链表/InitNode.cpp)
 ## 03栈和队列
 1. [0020-有效的括号-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/03栈和队列/0020-有效的括号-easy.cpp)
 2. [0232-用栈实现队列-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/03栈和队列/0232-用栈实现队列-easy.cpp)
