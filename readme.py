@@ -1,6 +1,7 @@
 import os
 import datetime
 
+
 def get_dirs():
     dirs = []
     ignore_list = ['.git', '.vscode', 'data',
@@ -16,18 +17,20 @@ def insert_txt(dirpath):
         for root, dirs, files in os.walk(dirpath):
             dir_depth = len(root.split(os.path.sep))+1
             h = '#'*dir_depth + ' '
-            if dir_depth>2:
+            lk = "https://github.com/SukiEva/AlgorithmLearning/tree/master/" + \
+                root.replace("\\", "/")
+            if dir_depth > 2:
                 h2 = root[root.rfind('\\')+1:]
+                f.write(h+"["+h2+"]("+lk+')\n')
             else:
                 h2 = root[1] + "、"+root[2:]
-            lk = "https://github.com/SukiEva/AlgorithmLearning/tree/master/" + root.replace("\\", "/")
-            f.write(h+"["+h2+"]("+lk+')\n')
+                f.write(h+h2+'\n')
             cnt = 1
             for file in files:
                 if '.cpp' in file:
                     name = file[0:file.rfind('.cpp')]
                     path = root.replace("\\", "/")+'/'+file
-                    link = r"https://github.com/SukiEva/AlgorithmLearning/blob/master/"+path
+                    link = r"./"+path
                     f.write(str(cnt)+". ["+name+"]("+link+")\n")
                     cnt += 1
                     # print(file)
@@ -36,7 +39,7 @@ def insert_txt(dirpath):
 def rename():
     if os.path.exists('README.md'):
         os.rename("README.md", "README.txt")
-        nowtime = datetime.datetime.now().strftime(r'%Y-%m-%d %H:%M:%S')#现在
+        nowtime = datetime.datetime.now().strftime(r'%Y-%m-%d %H:%M:%S')  # 现在
         with open("README.txt", "w", encoding='utf-8') as f:
             f.write(
                 "# LeetCode\n" +
