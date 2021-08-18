@@ -1,7 +1,7 @@
 # LeetCode
 本仓库为个人刷题学习仓库，记录学习过程
 
-> PS : 此README由程序自动生成，最后更新：2021-08-18 21:06:42
+> PS : 此README由程序自动生成，最后更新：2021-08-18 21:09:07
 ## 1、数组
 ### [二分查找](https://github.com/SukiEva/AlgorithmLearning/tree/master/01数组/二分查找)
 1. [0034-在排序数组中查找元素的第一个和最后一个位置-middle](https://github.com/SukiEva/AlgorithmLearning/blob/master/01数组/二分查找/0034-在排序数组中查找元素的第一个和最后一个位置-middle.cpp)
@@ -35,6 +35,7 @@
 ## 7、哈希
 ## 8、排序
 1. [0912-排序数组-middle](https://github.com/SukiEva/AlgorithmLearning/blob/master/08排序/0912-排序数组-middle.cpp)
+### [排序汇总](https://github.com/SukiEva/AlgorithmLearning/tree/master/08排序/排序汇总)
 ## 9、动态规划
 1. [0053-最大子序和-easy](https://github.com/SukiEva/AlgorithmLearning/blob/master/09动态规划/0053-最大子序和-easy.cpp)
 ## 10、其他
