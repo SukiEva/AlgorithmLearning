@@ -22,7 +22,7 @@
 2. 在已排序部分，将所有比 v 大的元素向后移动一位
 3. 将已取出的元素 v 插入空位
 
-- <img src="https://img-blog.csdnimg.cn/20200610212716370.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+- <img src="https://img-blog.csdnimg.cn/20200610212716370.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 ```cpp
 void InsertSort(int a[], int len) {
@@ -60,7 +60,7 @@ void InsertSort(int a[], int len) {
   - 减小增量：初始：d1 = n/2，则模式：di+1 = di /2
 - 重复第 2 步， 直到 di==1，所有记录在同一组，组内排序
   - 排序均为直接插入排序
-- <img src="https://img-blog.csdnimg.cn/20200611095957860.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+- <img src="https://img-blog.csdnimg.cn/20200611095957860.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 ```cpp
 // ? 按照 ShellSort 定义写出
@@ -107,7 +107,7 @@ void shellSort(int a[], int n) {
   重复执行下述处理，直到数组中不包含顺序相反的相邻元素：
   1、从数组开头开始依次比较相邻两个元素，如果大小关系相反则交换位置
 
-- <img src="https://img-blog.csdnimg.cn/20200610213746499.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+- <img src="https://img-blog.csdnimg.cn/20200610213746499.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 后面类推
 
@@ -158,17 +158,17 @@ void BubbleSort(int a[], int len){
 
   - 将“分区基准” temp，放到空位 R[i]中
 
-    <img src="https://img-blog.csdnimg.cn/20200611111724246.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
-    <img src="https://img-blog.csdnimg.cn/2020061111183986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+    <img src="https://img-blog.csdnimg.cn/20200611111724246.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
+    <img src="https://img-blog.csdnimg.cn/2020061111183986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 - 第 2 趟快排：
   - 对 K 左、右两个字表，分别执行 1 趟快排 - 4 个子表
     … …
 - 直到：各子表长度 ≤1
 
-  - <img src="https://img-blog.csdnimg.cn/20200611111925390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
-  - <img src="https://img-blog.csdnimg.cn/20200611111954958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
-  - <img src="https://img-blog.csdnimg.cn/20200611112035856.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+  - <img src="https://img-blog.csdnimg.cn/20200611111925390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
+  - <img src="https://img-blog.csdnimg.cn/20200611111954958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
+  - <img src="https://img-blog.csdnimg.cn/20200611112035856.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 ```cpp
 // ? 快排划分
@@ -228,7 +228,7 @@ void QuickSort(int a[], int l, int r) {
 - 重复执行 N-1 次 下述处理：
   1. 找出未排序部分最小值的位置 minj
   2. 将 minj 位置的元素与未排序部分的起始元素交换
-- <img src="https://img-blog.csdnimg.cn/2020061021342975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+- <img src="https://img-blog.csdnimg.cn/2020061021342975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 ```cpp
 void SelectSort(int a[], int len){
@@ -255,22 +255,22 @@ void SelectSort(int a[], int len){
 - 将待排序数据建立成大根堆
 
   - 将待排序记录建成 1 个完全二叉树（**从左往右**插入），再“**从后向前**”依次调整 sift  
-    <img src="https://img-blog.csdnimg.cn/2020061110281671.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+    <img src="https://img-blog.csdnimg.cn/2020061110281671.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
   - sift（待调整：x）：**就是让其满足大根堆**
     - 判断“待调整 x”是否 >左孩子 && >右孩子
       - 是，则无需调整，结束
       - 否，继续“调整 x”，即：重复，直到 x 与孩子满足堆序性，或 x 成为叶子
   - 从**最后结点的父亲**开始，最后结点下标：n-1 父亲下标 p= (n-1-1)/2
     - “从后向前”：依次调整 p, p-1, p-2, …, 0
-      <img src="https://img-blog.csdnimg.cn/20200611103428103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+      <img src="https://img-blog.csdnimg.cn/20200611103428103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
     - 之后 sift (3)，sift(2)，sift(1)，sift(0)，构成大根堆
 
 - 重复：选出最大值（堆顶）、并**调整**剩余部分（**较大的孩子上升，空位置下降**
-  - <img src="https://img-blog.csdnimg.cn/20200611104141727.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
-  - <img src="https://img-blog.csdnimg.cn/20200611104232312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
-  - <img src="https://img-blog.csdnimg.cn/20200611104425928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+  - <img src="https://img-blog.csdnimg.cn/20200611104141727.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
+  - <img src="https://img-blog.csdnimg.cn/20200611104232312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
+  - <img src="https://img-blog.csdnimg.cn/20200611104425928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
     以此类推，直到堆无剩余元素
-  - <img src="https://img-blog.csdnimg.cn/20200611104756166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+  - <img src="https://img-blog.csdnimg.cn/20200611104756166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
 
 ```cpp
 // - 图解 https://www.cnblogs.com/chengxiao/p/6129630.html
@@ -389,4 +389,4 @@ void MergeSort(int a[], int begin, int end){
 
 ## 5、排序比较
 
-<img src="https://img-blog.csdnimg.cn/20200611112228412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="80%">
+<img src="https://img-blog.csdnimg.cn/20200611112228412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70" width="50%">
