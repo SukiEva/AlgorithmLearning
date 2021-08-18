@@ -23,14 +23,15 @@ def insert_txt(dirpath):
                 h2 = root[root.rfind('\\')+1:]
                 f.write(h+"["+h2+"]("+lk+')\n')
             else:
-                h2 = root[1] + "、"+root[2:]
+                number = int(root[0:2])
+                h2 = str(number) + "、"+root[2:]
                 f.write(h+h2+'\n')
             cnt = 1
             for file in files:
                 if '.cpp' in file:
                     name = file[0:file.rfind('.cpp')]
                     path = root.replace("\\", "/")+'/'+file
-                    link = r"./"+path
+                    link = r"https://github.com/SukiEva/AlgorithmLearning/blob/master/"+path
                     f.write(str(cnt)+". ["+name+"]("+link+")\n")
                     cnt += 1
                     # print(file)

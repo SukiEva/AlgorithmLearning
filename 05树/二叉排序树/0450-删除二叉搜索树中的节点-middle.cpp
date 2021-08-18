@@ -1,5 +1,5 @@
 // https://leetcode-cn.com/problems/delete-node-in-a-bst/
-#include "TreeNode.h"
+#include "../TreeNode.h"
 using namespace std;
 
 class Solution {
@@ -64,7 +64,7 @@ class Solution {
             else
                 p = p->right;
         }
-        bool tag=true;
+        bool tag = true;
         if (p != nullptr) tag = NodeDelete(p, par);
         if (!tag) return nullptr;
         return root;
