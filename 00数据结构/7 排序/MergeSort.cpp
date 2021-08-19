@@ -22,13 +22,13 @@ void Merge(int a[], int begin, int mid, int end) {
 }
 
 // ? 递归
-void MergeSort(int a[], int begin, int end){
-        if (begin<end) {
-                int mid=(begin+end)/2;
-                MergeSort(a,begin,mid); // 左侧递归
-                MergeSort(a,mid+1,end); // 右侧递归
-                Merge(a,begin,mid,end)  // 归并
-        }
+void MergeSort(int a[], int begin, int end) {
+    if (begin < end) {
+        int mid = (begin + end) / 2;
+        MergeSort(a, begin, mid);    // 左侧递归
+        MergeSort(a, mid + 1, end);  // 右侧递归
+        Merge(a, begin, mid, end);   // 归并
+    }
 }
 
 // ? 非递归
