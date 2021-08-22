@@ -20,11 +20,10 @@ class Solution {
     }
 };
 
-int main() { 
-    
+int main() {
     Solution solution = Solution();
-    vector<int> nums = {-1,0,3,5,9,12};
-    cout<<solution.search(nums,9);    
-    return 0; 
-    
+    vector<int> nums = {-1, 0, 3, 5, 9, 12};
+    cout << solution.search(nums, 9);
+    return 0;
 }
+

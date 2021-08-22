@@ -346,31 +346,31 @@ void Merge(int a[], int begin, int mid, int end) {
 }
 
 // ? 递归
-void MergeSort(int a[], int begin, int end){
-        if (begin<end) {
-                int mid=(begin+end)/2;
-                MergeSort(a,begin,mid); // 左侧递归
-                MergeSort(a,mid+1,end); // 右侧递归
-                Merge(a,begin,mid,end)  // 归并
-        }
+void MergeSort(int a[], int begin, int end) {
+    if (begin < end) {
+        int mid = (begin + end) / 2;
+        MergeSort(a, begin, mid);    // 左侧递归
+        MergeSort(a, mid + 1, end);  // 右侧递归
+        Merge(a, begin, mid, end);   // 归并
+    }
 }
 
 // ? 非递归
-// void MergeSort(int a[], int n) {
-//     int size = 1, begin, mid, end;
-//     while (size <= n - 1) {
-//         begin = 0;
-//         while (begin + size <= n - 1) {
-//             mid = begin + size - 1;
-//             end = mid + size;
-//             if (end > n - 1)  //第二个序列个数不足size
-//                 end = n - 1;
-//             Merge(a, begin, mid, end);
-//             begin = end + 1;  //下一次归并时第一关序列的下界
-//         }
-//         size *= 2;  //扩大范围
-//     }
-// }
+void MergeSort2(int a[], int n) {
+    int size = 1, begin, mid, end;
+    while (size <= n - 1) {
+        begin = 0;
+        while (begin + size <= n - 1) {
+            mid = begin + size - 1;
+            end = mid + size;
+            if (end > n - 1)  //第二个序列个数不足size
+                end = n - 1;
+            Merge(a, begin, mid, end);
+            begin = end + 1;  //下一次归并时第一关序列的下界
+        }
+        size *= 2;  //扩大范围
+    }
+}
 ```
 
 ### (8) 基数排序

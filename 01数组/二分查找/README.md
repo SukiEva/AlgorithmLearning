@@ -20,19 +20,19 @@
 
 **代码：**
 ```c++
-    int search(vector<int>& nums, int target) {  // 左闭右闭
-        int left = 0, right = nums.size() - 1;
-        while (left <= right) {
-            int middle = left + ((right - left) >> 1);  // 防止溢出
-            if (nums[middle] > target)
-                right = middle - 1;
-            else if (nums[middle] < target)
-                left = middle + 1;
-            else
-                return middle;
-        }
-        return -1;
+int search(vector<int>& nums, int target) {  // 左闭右闭
+    int left = 0, right = nums.size() - 1;
+    while (left <= right) {
+        int middle = left + ((right - left) >> 1);  // 防止溢出
+        if (nums[middle] > target)
+            right = middle - 1;
+        else if (nums[middle] < target)
+            left = middle + 1;
+        else
+            return middle;
     }
+    return -1;
+}
 ```
 ### 2、左闭右开
 定义 target 是在一个在左闭右开的区间里，也就是[left, right) ，那么二分法的边界处理方式则截然不同。
@@ -44,20 +44,20 @@
 
 **代码：**
 ```c++
-    int search(vector<int>& nums, int target) {
-        int left = 0;
-        int right = nums.size(); // 左闭右开
-        while (left < right) { // left == right在[left, right)是无效的空间
-            int middle = left + ((right - left) >> 1);
-            if (nums[middle] > target) {
-                right = middle; // target 在左区间，在[left, middle)中
-            } else if (nums[middle] < target) {
-                left = middle + 1; // target 在右区间，在[middle + 1, right)中
-            } else { // nums[middle] == target
-                return middle; // 数组中找到目标值，直接返回下标
-            }
+int search(vector<int>& nums, int target) {
+    int left = 0;
+    int right = nums.size();  // 左闭右开
+    while (left < right) {    // left == right在[left, right)是无效的空间
+        int middle = left + ((right - left) >> 1);
+        if (nums[middle] > target) {
+            right = middle;  // target 在左区间，在[left, middle)中
+        } else if (nums[middle] < target) {
+            left = middle + 1;  // target 在右区间，在[middle + 1, right)中
+        } else {                // nums[middle] == target
+            return middle;      // 数组中找到目标值，直接返回下标
         }
-        // 未找到目标值
-        return -1;
     }
+    // 未找到目标值
+    return -1;
+}
 ```

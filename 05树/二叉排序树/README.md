@@ -39,7 +39,7 @@
 <img src="https://img-blog.csdnimg.cn/20200512170217478.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjQwMDA5,size_16,color_FFFFFF,t_70#pic_center" width="50%">
 
 ```cpp
-oid BST_Insert(BiTree* T, Elemtype k) {
+void BST_Insert(BiTree* T, Elemtype k) {
     /* 用 malloc 分配内存创建
     T = (BiTree*)malloc(sizeof(BiTree));
     T->data = k;
