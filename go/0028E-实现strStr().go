@@ -9,10 +9,6 @@ func getNext(next []int, s string) {
 		for j > 0 && s[i] != s[j] {
 			j = next[j]
 		}
-		i++
-		if i >= len(s) {
-			continue
-		}
 		j++
 		if s[i] == s[j] {
 			next[i] = next[j]
