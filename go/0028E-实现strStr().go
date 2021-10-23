@@ -6,11 +6,15 @@ func getNext(next []int, s string) {
 	i, j := 0, -1
 	next[0] = j
 	for i < len(s) {
-		for j > 0 && s[i] != s[j] {
+		for j !=-1 && s[i] != s[j] { // 前后缀不同，向前回退
 			j = next[j]
 		}
+		i++
 		j++
-		if s[i] == s[j] {
+		if i >= len(s) || j >= len(s) {
+			return
+		}
+		if s[i] == s[j] { // 优化去重
 			next[i] = next[j]
 		} else {
 			next[i] = j
@@ -26,7 +30,7 @@ func strStr(haystack string, needle string) int {
 	getNext(next, needle)
 	i, j := 0, 0
 	for i < len(haystack) && j < len(needle) {
-		for j > 0 && haystack[i] != needle[j] {
+		for j !=-1 && haystack[i] != needle[j] {
 			j = next[j]
 		}
 		i++
