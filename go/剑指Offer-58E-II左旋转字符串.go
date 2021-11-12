@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-17 10:09:55
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 func reverseLeftWords(s string, n int) string {

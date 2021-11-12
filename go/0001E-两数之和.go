@@ -1,3 +1,9 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-16 15:52:26
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
 package main
 
 func twoSum(nums []int, target int) []int {

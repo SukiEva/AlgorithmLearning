@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-14 10:18:21
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 func minSubArrayLen(target int, nums []int) int {

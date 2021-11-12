@@ -1,11 +1,18 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-14 22:16:32
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 // 左闭右开
 func generateMatrix(n int) [][]int {
 	matrix := make([][]int, n)
 	for i := 0; i < n; i++ {
-        matrix[i] = make([]int, n)
-    }
+		matrix[i] = make([]int, n)
+	}
 	startx, starty := 0, 0 // 维护每次循环的起始位置
 	loop := n / 2          // loop维护循环次数
 	cnt, offset := 1, 1    // cnt维护位置数值, offset维护遍历长度

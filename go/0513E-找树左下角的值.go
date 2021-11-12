@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-04 14:43:54
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 import "container/list"

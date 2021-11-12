@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-16 15:33:44
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 func intersection(nums1 []int, nums2 []int) []int {

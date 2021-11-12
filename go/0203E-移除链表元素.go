@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-15 20:57:10
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 type ListNode struct {
@@ -6,7 +13,7 @@ type ListNode struct {
 }
 
 func removeElements(head *ListNode, val int) *ListNode {
-	dummy := &ListNode{} 
+	dummy := &ListNode{}
 	dummy.Next = head
 	cur := dummy
 	for cur != nil && cur.Next != nil {

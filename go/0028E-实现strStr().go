@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-17 10:16:51
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 import "strings"
@@ -6,7 +13,7 @@ func getNext(next []int, s string) {
 	i, j := 0, -1
 	next[0] = j
 	for i < len(s) {
-		for j !=-1 && s[i] != s[j] { // 前后缀不同，向前回退
+		for j != -1 && s[i] != s[j] { // 前后缀不同，向前回退
 			j = next[j]
 		}
 		i++
@@ -30,7 +37,7 @@ func strStr(haystack string, needle string) int {
 	getNext(next, needle)
 	i, j := 0, 0
 	for i < len(haystack) && j < len(needle) {
-		for j !=-1 && haystack[i] != needle[j] {
+		for j != -1 && haystack[i] != needle[j] {
 			j = next[j]
 		}
 		i++

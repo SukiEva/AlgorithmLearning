@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-04 15:19:51
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 type TreeNode struct {
@@ -15,7 +22,7 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 	}
 	if len(postorder) == 1 { // 叶子
 		return root
-	} 
+	}
 	var rootIndex int
 	for i, v := range inorder { // 中序数组中根的位置
 		if v == postorder[len(postorder)-1] {

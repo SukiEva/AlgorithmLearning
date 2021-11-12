@@ -1,5 +1,11 @@
-package main
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-09 16:18:16
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
 
+package main
 
 func searchInsert(nums []int, target int) int {
 	left, right := 0, len(nums)-1

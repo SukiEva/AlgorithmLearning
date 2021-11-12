@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-03 09:03:55
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 import "container/list"
@@ -22,7 +29,7 @@ func preorderTraversal(root *TreeNode) []int {
 	for stack.Len() > 0 {
 		back := stack.Back()
 		stack.Remove(back)
-		if back.Value != nil { 
+		if back.Value != nil {
 			node = back.Value.(*TreeNode) // interface 为 nil 无法 断言类型转换
 			if node.Right != nil {
 				stack.PushBack(node.Right)

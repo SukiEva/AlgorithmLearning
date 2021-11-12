@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-16 21:00:06
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 func replaceSpace(s string) string {
@@ -9,7 +16,7 @@ func replaceSpace(s string) string {
 		}
 	}
 	extraSize := len(t) + cnt*2
-	t = append(t, make([]byte,cnt*2)...)
+	t = append(t, make([]byte, cnt*2)...)
 	for i, j := extraSize-1, len(s)-1; j < i; i-- {
 		if t[j] != ' ' {
 			t[i] = t[j]

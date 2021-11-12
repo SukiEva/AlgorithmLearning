@@ -1,3 +1,10 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-10 19:12:09
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
+
 package main
 
 type TreeNode struct {
@@ -25,8 +32,8 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 		}
 	}
 
-	root.Left = buildTree(preorder[1:rootIndex+1],inorder[:rootIndex])
-	root.Right = buildTree(preorder[rootIndex+1:],inorder[rootIndex+1:])
+	root.Left = buildTree(preorder[1:rootIndex+1], inorder[:rootIndex])
+	root.Right = buildTree(preorder[rootIndex+1:], inorder[rootIndex+1:])
 
 	return root
 }

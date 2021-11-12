@@ -1,3 +1,9 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-10-16 19:45:02
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
 package main
 
 import "sort"
@@ -9,7 +15,7 @@ func threeSum(nums []int) [][]int {
 		if v > 0 {
 			break
 		}
-		if i>0 && v == nums[i-1] {
+		if i > 0 && v == nums[i-1] {
 			continue
 		}
 		left, right := i+1, len(nums)-1
