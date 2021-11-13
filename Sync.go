@@ -70,6 +70,8 @@ func init() {
 }
 
 func main() {
+	style := "<style>\ntable {\n	margin: auto;\n}\n</style>\n\n"
+	readmeWriter.WriteString(style)
 	header := strings.Join([]string{
 		"# LeetCode\n\n",
 		"本仓库为个人刷题学习仓库，记录学习过程\n",
@@ -78,7 +80,7 @@ func main() {
 		"\n\n",
 		"## 进度表\n\n",
 		"|题号|题目|难度|题解|\n",
-		"|----|----|----|----|\n",
+		"|:-:|----|----|:-:|\n",
 	}, "")
 	readmeWriter.WriteString(header)
 	for _, question := range questions {

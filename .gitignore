@@ -1,7 +1,6 @@
 /.git
 /.vscode
 /data
-
 /cpp/*.exe
 /cpp/*.out
 /cpp/*.o
