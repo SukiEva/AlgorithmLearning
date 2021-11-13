@@ -70,8 +70,8 @@ func init() {
 }
 
 func main() {
-	style := "<style>\ntable {\n	margin: auto;\n}\n</style>\n\n"
-	readmeWriter.WriteString(style)
+	// style := "<style>\ntable {\n	margin: auto;\n}\n</style>\n\n"
+	// readmeWriter.WriteString(style)
 	header := strings.Join([]string{
 		"# LeetCode\n\n",
 		"本仓库为个人刷题学习仓库，记录学习过程\n",
