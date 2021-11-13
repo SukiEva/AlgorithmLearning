@@ -1,14 +1,15 @@
 /*
  * @Author: SukiEva
- * @Date: 2021-11-13 08:53:07
+ * @Date: 2021-11-13 10:18:03
  * @Description: https://github.com/SukiEva
  * わたし、気になります！
  */
+
 package main
 
 import "sort"
 
-func combinationSum(candidates []int, target int) [][]int {
+func combinationSum2(candidates []int, target int) [][]int {
 	ans := make([][]int, 0)
 	vis := make([]int, 0)
 	var dfs func(index, sum int)
@@ -20,8 +21,11 @@ func combinationSum(candidates []int, target int) [][]int {
 			return
 		}
 		for i := index; i < len(candidates) && sum+candidates[i] <= target; i++ {
+			if i > index && candidates[i] == candidates[i-1] { // 去重同一层
+				continue
+			}
 			vis = append(vis, candidates[i])
-			dfs(i, sum+candidates[i]) // 重复读取不＋1
+			dfs(i+1, sum+candidates[i])
 			vis = vis[:len(vis)-1]
 		}
 	}
