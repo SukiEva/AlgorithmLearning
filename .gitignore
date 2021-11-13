@@ -1,0 +1,8 @@
+/.git
+
+/cpp/.vscode
+/cpp/data
+/cpp/*.exe
+/cpp/*.out
+/cpp/*.o
+/cpp/README.py
