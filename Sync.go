@@ -18,6 +18,7 @@ import (
 )
 
 var (
+	readmeFile   *os.File
 	readmeWriter *bufio.Writer
 	questions    []Question
 	count        = []int{0, 0, 0, 0}
@@ -31,7 +32,7 @@ type Question struct {
 }
 
 func init() {
-	readmeFile, _ := os.OpenFile("README.md", os.O_WRONLY|os.O_CREATE, 0666)
+	readmeFile, _ = os.OpenFile("README.md", os.O_WRONLY|os.O_CREATE, 0666)
 	readmeWriter = bufio.NewWriter(readmeFile)
 	//defer readmeFile.Close()
 
@@ -94,9 +95,7 @@ func main() {
 			"|",
 			"<a href=\"go/",
 			question.Path,
-			"\">",
-			"🎉</a>",
-			"|\n",
+			"\">🎉</a>|\n",
 		}, "")
 		readmeWriter.WriteString(body)
 	}
@@ -117,5 +116,6 @@ func main() {
 	}, "")
 	readmeWriter.WriteString(footer)
 	readmeWriter.Flush()
+	readmeFile.Close()
 	fmt.Println("README刷新成功！")
 }
