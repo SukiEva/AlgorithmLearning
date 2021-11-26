@@ -4,6 +4,12 @@
  * @Description: https://github.com/SukiEva
  * わたし、気になります！
  */
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-13 20:27:18
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
 
 package main
 
@@ -76,7 +82,7 @@ func main() {
 	header := strings.Join([]string{
 		"# LeetCode\n\n",
 		"本仓库为个人刷题学习仓库，记录学习过程\n",
-		"> PS : 此README由程序自动生成，最后更新：",
+		"> PS : 最后更新：",
 		time.Now().Format("2006-01-02 15:04:05"),
 		"\n\n",
 		"## 进度表\n\n",
