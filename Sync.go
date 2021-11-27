@@ -4,12 +4,6 @@
  * @Description: https://github.com/SukiEva
  * わたし、気になります！
  */
-/*
- * @Author: SukiEva
- * @Date: 2021-11-13 20:27:18
- * @Description: https://github.com/SukiEva
- * わたし、気になります！
- */
 
 package main
 
