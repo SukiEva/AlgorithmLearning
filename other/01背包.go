@@ -4,7 +4,7 @@
  * @Description: https://github.com/SukiEva
  * わたし、気になります！
  */
-package main
+package other
 
 import "fmt"
 
