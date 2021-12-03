@@ -6,7 +6,24 @@
  */
 package main
 
+/* 动态规划
+- dp[i][0] 第 i 天有股票
+- dp[i][1] 第 i 天没有股票
+*/
 func maxProfit(prices []int, fee int) int {
+	dp := make([][]int, len(prices))
+	dp[0] = []int{-prices[0], 0}
+	for i := 1; i < len(prices); i++ {
+		dp[i] = []int{
+			max(dp[i-1][0], dp[i-1][1]-prices[i]),
+			max(dp[i-1][1], dp[i-1][0]+prices[i]-fee),
+		}
+	}
+	return dp[len(prices)-1][1]
+}
+
+// 根据公式贪心
+func maxProfitOld(prices []int, fee int) int {
 	ans := 0
 	min := prices[0]
 	for _, price := range prices {
@@ -20,4 +37,11 @@ func maxProfit(prices []int, fee int) int {
 		}
 	}
 	return ans
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
