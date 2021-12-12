@@ -36,7 +36,7 @@ func init() {
 	readmeWriter = bufio.NewWriter(readmeFile)
 	//defer readmeFile.Close()
 
-	files, _ := ioutil.ReadDir("go")
+	files, _ := ioutil.ReadDir("go+")
 	for _, file := range files {
 		count[0]++
 		var difficulty string
@@ -101,7 +101,7 @@ func main() {
 	}
 	footer := strings.Join([]string{
 		"## 统计\n\n",
-		"共完成 ",
+		"本轮共完成 ",
 		strconv.Itoa(count[0]),
 		" 题\n",
 		"- 简单：",
