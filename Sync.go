@@ -22,6 +22,7 @@ var (
 	readmeWriter *bufio.Writer
 	questions    []Question
 	count        = []int{0, 0, 0, 0}
+	dir          = "cpp"
 )
 
 type Question struct {
@@ -36,12 +37,15 @@ func init() {
 	readmeWriter = bufio.NewWriter(readmeFile)
 	//defer readmeFile.Close()
 
-	files, _ := ioutil.ReadDir("go+")
+	files, _ := ioutil.ReadDir(dir)
 	for _, file := range files {
 		count[0]++
 		var difficulty string
 		fileName := file.Name()
 		filePath := fileName
+		if strings.Index(fileName, dir) == -1 {
+			continue
+		}
 		prefix := ""
 		if strings.HasPrefix(fileName, "剑指Offer") {
 			fileName = fileName[12:]
@@ -62,7 +66,7 @@ func init() {
 		}
 		question := &Question{
 			Id:         prefix + fileName[:4],
-			Name:       fileName[6 : len(fileName)-3],
+			Name:       fileName[6 : len(fileName)-len(dir)-1],
 			Difficulty: difficulty,
 			Path:       filePath,
 		}
@@ -93,14 +97,16 @@ func main() {
 			"|",
 			question.Difficulty,
 			"|",
-			"<a href=\"go/",
+			"<a href=\"",
+			dir,
+			"/",
 			question.Path,
 			"\">🎉</a>|\n",
 		}, "")
 		readmeWriter.WriteString(body)
 	}
 	footer := strings.Join([]string{
-		"## 统计\n\n",
+		"\n## 统计\n\n",
 		"本轮共完成 ",
 		strconv.Itoa(count[0]),
 		" 题\n",

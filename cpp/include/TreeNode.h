@@ -1,8 +1,6 @@
 #ifndef TREENODE_HEADER_FILE
 #define TREENODE_HEADER_FILE
 
-#include <iostream>
-#include <vector>
 struct TreeNode {
     int val;
     TreeNode *left;

@@ -1,8 +1,11 @@
+/*
+ * @Author: SukiEva
+ * @Date: 2021-11-13 09:33:05
+ * @Description: https://github.com/SukiEva
+ * わたし、気になります！
+ */
 #ifndef LISTNODE_HEADER
 #define LISTNODE_HEADER
-
-#include <iostream>
-#include <vector>
 
 struct ListNode {
     int val;
@@ -12,6 +15,4 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-ListNode* InitData(std::vector<int>& a);
-void OutPut(ListNode* L);
 #endif
