@@ -1,0 +1,23 @@
+// 一些不简单的题
+// 数组
+0209 https://leetcode-cn.com/problems/minimum-size-subarray-sum/
+0059 https://leetcode-cn.com/problems/spiral-matrix-ii/
+
+// 链表
+0024 https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+0019 https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+0142 https://leetcode-cn.com/problems/linked-list-cycle-ii/
+
+// 哈希
+0454 https://leetcode-cn.com/problems/4sum-ii/
+0015 https://leetcode-cn.com/problems/3sum/
+0018 https://leetcode-cn.com/problems/4sum/
+
+// 字符串
+0541 https://leetcode-cn.com/problems/reverse-string-ii/
+OF05 https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
+0151 https://leetcode-cn.com/problems/reverse-words-in-a-string/
+0459 https://leetcode-cn.com/problems/repeated-substring-pattern/
+
+// 栈和队列
+0239 https://leetcode-cn.com/problems/sliding-window-maximum/
