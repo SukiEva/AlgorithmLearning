@@ -15,7 +15,7 @@ class Solution {
    public:
     vector<vector<int>> ans;
     vector<int> tmp;
-    bool vis[101] = {false};
+    // bool vis[101] = {false};
 
     void dfs(vector<int>& candidates, int target, int idx, int sum) {
         if (sum == target) {
@@ -24,13 +24,16 @@ class Solution {
         }
         for (int i = idx;
              i < candidates.size() && sum + candidates[i] <= target; i++) {
-            if (i > 0 && candidates[i] == candidates[i - 1] && !vis[i - 1])
+            // if (i > 0 && candidates[i] == candidates[i - 1] && !vis[i - 1])
+            //     continue;  // 去重
+            // 用 idx 判断，第一遍肯定用了，不需要 vis 数组
+            if (idx > 0 && candidates[i] == candidates[i - 1])
                 continue;  // 去重
-            vis[i] = true;
+            // vis[i] = true;
             tmp.push_back(candidates[i]);
             dfs(candidates, target, i + 1, sum + candidates[i]);
             tmp.pop_back();
-            vis[i] = false;
+            // vis[i] = false;
         }
     }
 
