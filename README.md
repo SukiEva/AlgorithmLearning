@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2021-12-27 16:52:00
+> PS : 最后更新：2021-12-28 16:32:44
 
 ## 进度表
 
@@ -16,10 +16,12 @@
 |0024|两两交换链表中的节点|Middle|<a href="cpp/0024M-两两交换链表中的节点.cpp">🎉</a>|
 |0027|移除元素|Easy|<a href="cpp/0027E-移除元素.cpp">🎉</a>|
 |0028|实现strStr()|Easy|<a href="cpp/0028E-实现strStr().cpp">🎉</a>|
+|0037|解数独|Hard|<a href="cpp/0037H-解数独.cpp">🎉</a>|
 |0039|组合总和|Middle|<a href="cpp/0039M-组合总和.cpp">🎉</a>|
 |0040|组合总和II|Middle|<a href="cpp/0040M-组合总和II.cpp">🎉</a>|
 |0046|全排列|Middle|<a href="cpp/0046M-全排列.cpp">🎉</a>|
 |0047|全排列II|Middle|<a href="cpp/0047M-全排列II.cpp">🎉</a>|
+|0051|N皇后|Hard|<a href="cpp/0051H-N皇后.cpp">🎉</a>|
 |0059|螺旋矩阵II|Middle|<a href="cpp/0059M-螺旋矩阵II.cpp">🎉</a>|
 |0077|组合|Middle|<a href="cpp/0077M-组合.cpp">🎉</a>|
 |0078|子集|Middle|<a href="cpp/0078M-子集.cpp">🎉</a>|
@@ -52,6 +54,7 @@
 |0239|滑动窗口最大值|Hard|<a href="cpp/0239H-滑动窗口最大值.cpp">🎉</a>|
 |0242|有效的字母异位词|Easy|<a href="cpp/0242E-有效的字母异位词.cpp">🎉</a>|
 |0257|二叉树的所有路径|Easy|<a href="cpp/0257E-二叉树的所有路径.cpp">🎉</a>|
+|0332|重新安排行程|Hard|<a href="cpp/0332H-重新安排行程.cpp">🎉</a>|
 |0344|反转字符串|Easy|<a href="cpp/0344E-反转字符串.cpp">🎉</a>|
 |0347|前 K 个高频元素|Middle|<a href="cpp/0347M-前 K 个高频元素.cpp">🎉</a>|
 |0349|两个数组的交集|Easy|<a href="cpp/0349E-两个数组的交集.cpp">🎉</a>|
@@ -80,7 +83,7 @@
 
 ## 统计
 
-本轮共完成 71 题
+本轮共完成 74 题
 - 简单：34 题
 - 中等：35 题
-- 困难：1 题
+- 困难：4 题
