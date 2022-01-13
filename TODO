@@ -58,3 +58,9 @@ OF05 https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
 0198 https://leetcode-cn.com/problems/house-robber/
 0213 https://leetcode-cn.com/problems/house-robber-ii/
 0337 https://leetcode-cn.com/problems/house-robber-iii/
+// 动态规划-股票买卖
+0123 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
+0309 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+// 动态规划-子序列
+0300 https://leetcode-cn.com/problems/longest-increasing-subsequence/
+0718 https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
