@@ -1,13 +1,14 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-01-14 16:51:16
+> PS : 最后更新：2022-01-15 18:22:23
 
 ## 进度表
 
 |题号|题目|难度|题解|
 |:-:|----|----|:-:|
 |0001|两数之和|Easy|<a href="cpp/0001E-两数之和.cpp">🎉</a>|
+|0003|无重复字符的最长子串|Middle|<a href="cpp/0003M-无重复字符的最长子串.cpp">🎉</a>|
 |0015|三数之和|Middle|<a href="cpp/0015M-三数之和.cpp">🎉</a>|
 |0017|电话号码的字母组合|Middle|<a href="cpp/0017M-电话号码的字母组合.cpp">🎉</a>|
 |0018|四数之和|Middle|<a href="cpp/0018M-四数之和.cpp">🎉</a>|
@@ -49,6 +50,7 @@
 |0139|单词拆分|Middle|<a href="cpp/0139M-单词拆分.cpp">🎉</a>|
 |0142|环形链表II|Middle|<a href="cpp/0142M-环形链表II.cpp">🎉</a>|
 |0144|二叉树的前序遍历|Easy|<a href="cpp/0144E-二叉树的前序遍历.cpp">🎉</a>|
+|0146|LRU缓存|Middle|<a href="cpp/0146M-LRU缓存.cpp">🎉</a>|
 |0150|逆波兰表达式求值|Middle|<a href="cpp/0150M-逆波兰表达式求值.cpp">🎉</a>|
 |0151|翻转字符串里的单词|Middle|<a href="cpp/0151M-翻转字符串里的单词.cpp">🎉</a>|
 |0160|相交链表|Easy|<a href="cpp/0160E-相交链表.cpp">🎉</a>|
@@ -116,11 +118,16 @@
 |1049|最后一块石头的重量II|Middle|<a href="cpp/1049M-最后一块石头的重量II.cpp">🎉</a>|
 |1143|最长公共子序列|Middle|<a href="cpp/1143M-最长公共子序列.cpp">🎉</a>|
 |《剑指Offer》0005|替换空格|Easy|<a href="cpp/剑指Offer-0005E-替换空格.cpp">🎉</a>|
+|《剑指Offer》0006|从尾到头打印链表|Easy|<a href="cpp/剑指Offer-0006E-从尾到头打印链表.cpp">🎉</a>|
+|《剑指Offer》0009|用两个栈实现队列|Easy|<a href="cpp/剑指Offer-0009E-用两个栈实现队列.cpp">🎉</a>|
+|《剑指Offer》0024|反转链表|Easy|<a href="cpp/剑指Offer-0024E-反转链表.cpp">🎉</a>|
+|《剑指Offer》0030|包含min函数的栈|Easy|<a href="cpp/剑指Offer-0030E-包含min函数的栈.cpp">🎉</a>|
+|《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0058|II左旋转字符串|Easy|<a href="cpp/剑指Offer-0058E-II左旋转字符串.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 111 题
-- 简单：43 题
-- 中等：60 题
+本轮共完成 118 题
+- 简单：47 题
+- 中等：63 题
 - 困难：7 题

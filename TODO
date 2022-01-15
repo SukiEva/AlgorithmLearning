@@ -1,4 +1,4 @@
-// 一些不简单的题
+/****** 代码随想录 ********/
 // 数组
 0209 https://leetcode-cn.com/problems/minimum-size-subarray-sum/
 0059 https://leetcode-cn.com/problems/spiral-matrix-ii/
@@ -71,3 +71,13 @@ OF05 https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
 // 回文
 0647 https://leetcode-cn.com/problems/palindromic-substrings/
 0516 https://leetcode-cn.com/problems/longest-palindromic-subsequence/
+
+
+/****** 剑指Offer ********/
+
+0030 https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/
+
+
+
+/****** CodeTop ********/
+0146 https://leetcode-cn.com/problems/lru-cache/
