@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-01-15 18:22:23
+> PS : 最后更新：2022-01-16 20:13:05
 
 ## 进度表
 
@@ -117,9 +117,14 @@
 |1047|删除字符串中的所有相邻重复项|Easy|<a href="cpp/1047E-删除字符串中的所有相邻重复项.cpp">🎉</a>|
 |1049|最后一块石头的重量II|Middle|<a href="cpp/1049M-最后一块石头的重量II.cpp">🎉</a>|
 |1143|最长公共子序列|Middle|<a href="cpp/1143M-最长公共子序列.cpp">🎉</a>|
+|《剑指Offer》0003|数组中重复的数字|Easy|<a href="cpp/剑指Offer-0003E-数组中重复的数字.cpp">🎉</a>|
+|《剑指Offer》0004|二维数组中的查找|Middle|<a href="cpp/剑指Offer-0004M-二维数组中的查找.cpp">🎉</a>|
 |《剑指Offer》0005|替换空格|Easy|<a href="cpp/剑指Offer-0005E-替换空格.cpp">🎉</a>|
 |《剑指Offer》0006|从尾到头打印链表|Easy|<a href="cpp/剑指Offer-0006E-从尾到头打印链表.cpp">🎉</a>|
+|《剑指Offer》0007|重建二叉树|Middle|<a href="cpp/剑指Offer-0007M-重建二叉树.cpp">🎉</a>|
 |《剑指Offer》0009|用两个栈实现队列|Easy|<a href="cpp/剑指Offer-0009E-用两个栈实现队列.cpp">🎉</a>|
+|《剑指Offer》0010|斐波那契数列|Easy|<a href="cpp/剑指Offer-0010E-斐波那契数列.cpp">🎉</a>|
+|《剑指Offer》0011|旋转数组的最小数字|Easy|<a href="cpp/剑指Offer-0011E-旋转数组的最小数字.cpp">🎉</a>|
 |《剑指Offer》0024|反转链表|Easy|<a href="cpp/剑指Offer-0024E-反转链表.cpp">🎉</a>|
 |《剑指Offer》0030|包含min函数的栈|Easy|<a href="cpp/剑指Offer-0030E-包含min函数的栈.cpp">🎉</a>|
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
@@ -127,7 +132,7 @@
 
 ## 统计
 
-本轮共完成 118 题
-- 简单：47 题
-- 中等：63 题
+本轮共完成 123 题
+- 简单：50 题
+- 中等：65 题
 - 困难：7 题

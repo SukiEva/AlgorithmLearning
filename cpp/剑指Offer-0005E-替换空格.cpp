@@ -17,9 +17,9 @@ class Solution {
         int cnt = 0;
         for (auto c : s)
             if (c == ' ') cnt++;
-        int left = s.size();
+        int left = s.size() - 1;
         s.resize(s.size() + 2 * cnt);
-        int right = s.size();
+        int right = s.size() - 1;
         for (; left < right; left--, right--) {
             if (s[left] != ' ') {
                 s[right] = s[left];
