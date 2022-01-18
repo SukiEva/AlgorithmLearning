@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-01-17 19:55:11
+> PS : 最后更新：2022-01-18 20:32:54
 
 ## 进度表
 
@@ -127,17 +127,22 @@
 |《剑指Offer》0011|旋转数组的最小数字|Easy|<a href="cpp/剑指Offer-0011E-旋转数组的最小数字.cpp">🎉</a>|
 |《剑指Offer》0012|矩阵中的路径|Middle|<a href="cpp/剑指Offer-0012M-矩阵中的路径.cpp">🎉</a>|
 |《剑指Offer》0013|机器人的运动范围|Middle|<a href="cpp/剑指Offer-0013M-机器人的运动范围.cpp">🎉</a>|
+|《剑指Offer》0014|剪绳子|Middle|<a href="cpp/剑指Offer-0014M-剪绳子.cpp">🎉</a>|
+|《剑指Offer》0014|剪绳子II|Middle|<a href="cpp/剑指Offer-0014M-剪绳子II.cpp">🎉</a>|
+|《剑指Offer》0015|二进制中1的个数|Easy|<a href="cpp/剑指Offer-0015E-二进制中1的个数.cpp">🎉</a>|
 |《剑指Offer》0024|反转链表|Easy|<a href="cpp/剑指Offer-0024E-反转链表.cpp">🎉</a>|
 |《剑指Offer》0030|包含min函数的栈|Easy|<a href="cpp/剑指Offer-0030E-包含min函数的栈.cpp">🎉</a>|
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0038|字符串的排列|Middle|<a href="cpp/剑指Offer-0038M-字符串的排列.cpp">🎉</a>|
+|《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
+|《剑指Offer》0050|第一个只出现一次的字符|Easy|<a href="cpp/剑指Offer-0050E-第一个只出现一次的字符.cpp">🎉</a>|
 |《剑指Offer》0053|0～n-1中缺失的数字|Easy|<a href="cpp/剑指Offer-0053E-0～n-1中缺失的数字.cpp">🎉</a>|
 |《剑指Offer》0053|在排序数组中查找数字I|Easy|<a href="cpp/剑指Offer-0053E-在排序数组中查找数字I.cpp">🎉</a>|
 |《剑指Offer》0058|II左旋转字符串|Easy|<a href="cpp/剑指Offer-0058E-II左旋转字符串.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 128 题
-- 简单：52 题
-- 中等：68 题
+本轮共完成 133 题
+- 简单：55 题
+- 中等：70 题
 - 困难：7 题
