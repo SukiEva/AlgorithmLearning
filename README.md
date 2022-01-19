@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-01-18 20:32:54
+> PS : 最后更新：2022-01-19 21:26:03
 
 ## 进度表
 
@@ -132,6 +132,9 @@
 |《剑指Offer》0015|二进制中1的个数|Easy|<a href="cpp/剑指Offer-0015E-二进制中1的个数.cpp">🎉</a>|
 |《剑指Offer》0024|反转链表|Easy|<a href="cpp/剑指Offer-0024E-反转链表.cpp">🎉</a>|
 |《剑指Offer》0030|包含min函数的栈|Easy|<a href="cpp/剑指Offer-0030E-包含min函数的栈.cpp">🎉</a>|
+|《剑指Offer》0032|从上到下打印二叉树II|Easy|<a href="cpp/剑指Offer-0032E-从上到下打印二叉树II.cpp">🎉</a>|
+|《剑指Offer》0032|从上到下打印二叉树I|Middle|<a href="cpp/剑指Offer-0032M-从上到下打印二叉树I.cpp">🎉</a>|
+|《剑指Offer》0032|从上到下打印二叉树III|Middle|<a href="cpp/剑指Offer-0032M-从上到下打印二叉树III.cpp">🎉</a>|
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0038|字符串的排列|Middle|<a href="cpp/剑指Offer-0038M-字符串的排列.cpp">🎉</a>|
 |《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
@@ -142,7 +145,7 @@
 
 ## 统计
 
-本轮共完成 133 题
-- 简单：55 题
-- 中等：70 题
+本轮共完成 136 题
+- 简单：56 题
+- 中等：72 题
 - 困难：7 题
