@@ -1,6 +1,9 @@
 /.git
 /.vscode
 /data
+/kt/out
+/kt/.idea
+/kt/kt.iml
 /*/*.exe
 /*/*.out
 /*/*.o
