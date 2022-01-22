@@ -1,6 +1,6 @@
 /*
  * @Author: SukiEva
- * @Date: 2021-12-21 09:19:13
+ * @Date: 2022-01-22 19:38:38
  * @Description: https://github.com/SukiEva
  * わたし、気になります！
  */
@@ -13,23 +13,29 @@ using namespace std;
 
 class Solution {
    public:
-    vector<vector<int>> levelOrder(TreeNode* root) {
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         if (root == nullptr) return {};
         vector<vector<int>> ans;
-        vector<int> tmp;
         queue<TreeNode*> que;
+        deque<int> tmp;
         que.push(root);
+        bool flag = true;
         while (!que.empty()) {
             int l = que.size();
-            tmp.clear();
             while (l--) {
                 TreeNode* node = que.front();
                 que.pop();
-                tmp.push_back(node->val);
+                if (flag)
+                    tmp.push_back(node->val);
+                else
+                    tmp.push_front(node->val);
                 if (node->left != nullptr) que.push(node->left);
                 if (node->right != nullptr) que.push(node->right);
             }
-            ans.push_back(tmp);
+
+            ans.push_back(vector<int>(tmp.begin(), tmp.end()));
+            flag = !flag;
+            tmp.clear();
         }
         return ans;
     }
