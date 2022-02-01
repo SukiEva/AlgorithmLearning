@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-01 22:08:02
+> PS : 最后更新：2022-02-01 22:11:56
 
 ## 进度表
 
@@ -168,7 +168,7 @@
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0036|二叉搜索树与双向链表|Middle|<a href="cpp/剑指Offer-0036M-二叉搜索树与双向链表.cpp">🎉</a>|
 |《剑指Offer》0038|字符串的排列|Middle|<a href="cpp/剑指Offer-0038M-字符串的排列.cpp">🎉</a>|
-|《剑指Offer》0040|��小的k个数|Easy|<a href="cpp/剑指Offer-0040E最小的k个数.cpp">🎉</a>|
+|《剑指Offer》0040|最小的k个数|Easy|<a href="cpp/剑指Offer-0040E-最小的k个数.cpp">🎉</a>|
 |《剑指Offer》0041|数据流中的中位数|Hard|<a href="cpp/剑指Offer-0041H-数据流中的中位数.cpp">🎉</a>|
 |《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
 |《剑指Offer》0045|把数组排成最小的数|Middle|<a href="cpp/剑指Offer-0045M-把数组排成最小的数.cpp">🎉</a>|
