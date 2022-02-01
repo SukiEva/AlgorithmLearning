@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-01-29 22:50:30
+> PS : 最后更新：2022-02-01 22:08:02
 
 ## 进度表
 
@@ -10,6 +10,7 @@
 |0001|两数之和|Easy|<a href="cpp/0001E-两数之和.cpp">🎉</a>|
 |0003|无重复字符的最长子串|Middle|<a href="cpp/0003M-无重复字符的最长子串.cpp">🎉</a>|
 |0005|最长回文子串|Middle|<a href="cpp/0005M-最长回文子串.cpp">🎉</a>|
+|0008|字符串转换整数|Middle|<a href="cpp/0008M-字符串转换整数.cpp">🎉</a>|
 |0015|三数之和|Middle|<a href="cpp/0015M-三数之和.cpp">🎉</a>|
 |0017|电话号码的字母组合|Middle|<a href="cpp/0017M-电话号码的字母组合.cpp">🎉</a>|
 |0018|四数之和|Middle|<a href="cpp/0018M-四数之和.cpp">🎉</a>|
@@ -167,6 +168,8 @@
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0036|二叉搜索树与双向链表|Middle|<a href="cpp/剑指Offer-0036M-二叉搜索树与双向链表.cpp">🎉</a>|
 |《剑指Offer》0038|字符串的排列|Middle|<a href="cpp/剑指Offer-0038M-字符串的排列.cpp">🎉</a>|
+|《剑指Offer》0040|��小的k个数|Easy|<a href="cpp/剑指Offer-0040E最小的k个数.cpp">🎉</a>|
+|《剑指Offer》0041|数据流中的中位数|Hard|<a href="cpp/剑指Offer-0041H-数据流中的中位数.cpp">🎉</a>|
 |《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
 |《剑指Offer》0045|把数组排成最小的数|Middle|<a href="cpp/剑指Offer-0045M-把数组排成最小的数.cpp">🎉</a>|
 |《剑指Offer》0046|把数字翻译成字符串|Middle|<a href="cpp/剑指Offer-0046M-把数字翻译成字符串.cpp">🎉</a>|
@@ -177,15 +180,20 @@
 |《剑指Offer》0053|0～n-1中缺失的数字|Easy|<a href="cpp/剑指Offer-0053E-0～n-1中缺失的数字.cpp">🎉</a>|
 |《剑指Offer》0053|在排序数组中查找数字I|Easy|<a href="cpp/剑指Offer-0053E-在排序数组中查找数字I.cpp">🎉</a>|
 |《剑指Offer》0054|二叉搜索树的第k大节点|Easy|<a href="cpp/剑指Offer-0054E-二叉搜索树的第k大节点.cpp">🎉</a>|
+|《剑指Offer》0055|二叉树的深度I|Easy|<a href="cpp/剑指Offer-0055E-二叉树的深度I.cpp">🎉</a>|
+|《剑指Offer》0055|平衡二叉树II|Easy|<a href="cpp/剑指Offer-0055E-平衡二叉树II.cpp">🎉</a>|
 |《剑指Offer》0057|和为s的两个数字|Easy|<a href="cpp/剑指Offer-0057E-和为s的两个数字.cpp">🎉</a>|
 |《剑指Offer》0058|II左旋转字符串|Easy|<a href="cpp/剑指Offer-0058E-II左旋转字符串.cpp">🎉</a>|
 |《剑指Offer》0058|翻转单词顺序|Easy|<a href="cpp/剑指Offer-0058E-翻转单词顺序.cpp">🎉</a>|
 |《剑指Offer》0061|扑克牌中的顺子|Easy|<a href="cpp/剑指Offer-0061E-扑克牌中的顺子.cpp">🎉</a>|
 |《剑指Offer》0063|股票的最大利润|Middle|<a href="cpp/剑指Offer-0063M-股票的最大利润.cpp">🎉</a>|
+|《剑指Offer》0064|求1+2+…+n|Middle|<a href="cpp/剑指Offer-0064M-求1+2+…+n.cpp">🎉</a>|
+|《剑指Offer》0068|二叉搜索树的最近公共祖先I|Easy|<a href="cpp/剑指Offer-0068E-二叉搜索树的最近公共祖先I.cpp">🎉</a>|
+|《剑指Offer》0068|二叉树的最近公共祖先II|Easy|<a href="cpp/剑指Offer-0068E-二叉树的最近公共祖先II.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 176 题
-- 简单：73 题
-- 中等：91 题
-- 困难：11 题
+本轮共完成 185 题
+- 简单：78 题
+- 中等：93 题
+- 困难：12 题
