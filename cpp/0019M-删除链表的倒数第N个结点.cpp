@@ -16,14 +16,14 @@ class Solution {
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode* dummy = new ListNode(0);
         dummy->next = head;
-        ListNode *node = dummy, *cur = dummy;
-        while (n-- && node != nullptr) node = node->next;
-        node = node->next;
-        while (node != nullptr) {
-            node = node->next;
-            cur = cur->next;
+        ListNode *fast = dummy, *slow = dummy;
+        n++;
+        while (n-- && fast != nullptr) fast = fast->next;
+        while (fast != nullptr) {
+            slow = slow->next;
+            fast = fast->next;
         }
-        cur->next = cur->next->next;
+        slow->next = slow->next->next;
         return dummy->next;
     }
 };

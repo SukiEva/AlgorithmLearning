@@ -1,13 +1,14 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-02 21:48:56
+> PS : 最后更新：2022-02-03 22:55:22
 
 ## 进度表
 
 |题号|题目|难度|题解|
 |:-:|----|----|:-:|
 |0001|两数之和|Easy|<a href="cpp/0001E-两数之和.cpp">🎉</a>|
+|0002|两数相加|Middle|<a href="cpp/0002M-两数相加.cpp">🎉</a>|
 |0003|无重复字符的最长子串|Middle|<a href="cpp/0003M-无重复字符的最长子串.cpp">🎉</a>|
 |0005|最长回文子串|Middle|<a href="cpp/0005M-最长回文子串.cpp">🎉</a>|
 |0008|字符串转换整数|Middle|<a href="cpp/0008M-字符串转换整数.cpp">🎉</a>|
@@ -40,6 +41,7 @@
 |0072|编辑距离|Hard|<a href="cpp/0072H-编辑距离.cpp">🎉</a>|
 |0077|组合|Middle|<a href="cpp/0077M-组合.cpp">🎉</a>|
 |0078|子集|Middle|<a href="cpp/0078M-子集.cpp">🎉</a>|
+|0082|删除排序链表中的重复元素II|Middle|<a href="cpp/0082M-删除排序链表中的重复元素II.cpp">🎉</a>|
 |0088|合并两个有序数组|Easy|<a href="cpp/0088E-合并两个有序数组.cpp">🎉</a>|
 |0090|子集II|Middle|<a href="cpp/0090M-子集II.cpp">🎉</a>|
 |0092|反转链表II|Middle|<a href="cpp/0092M-反转链表II.cpp">🎉</a>|
@@ -190,12 +192,13 @@
 |《剑指Offer》0061|扑克牌中的顺子|Easy|<a href="cpp/剑指Offer-0061E-扑克牌中的顺子.cpp">🎉</a>|
 |《剑指Offer》0063|股票的最大利润|Middle|<a href="cpp/剑指Offer-0063M-股票的最大利润.cpp">🎉</a>|
 |《剑指Offer》0064|求1+2+…+n|Middle|<a href="cpp/剑指Offer-0064M-求1+2+…+n.cpp">🎉</a>|
+|《剑指Offer》0065|不用加减乘除做加法|Easy|<a href="cpp/剑指Offer-0065E-不用加减乘除做加法.cpp">🎉</a>|
 |《剑指Offer》0068|二叉搜索树的最近公共祖先I|Easy|<a href="cpp/剑指Offer-0068E-二叉搜索树的最近公共祖先I.cpp">🎉</a>|
 |《剑指Offer》0068|二叉树的最近公共祖先II|Easy|<a href="cpp/剑指Offer-0068E-二叉树的最近公共祖先II.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 187 题
-- 简单：78 题
-- 中等：95 题
+本轮共完成 190 题
+- 简单：79 题
+- 中等：97 题
 - 困难：12 题
