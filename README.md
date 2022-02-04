@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-03 22:55:22
+> PS : 最后更新：2022-02-04 21:15:07
 
 ## 进度表
 
@@ -186,6 +186,8 @@
 |《剑指Offer》0054|二叉搜索树的第k大节点|Easy|<a href="cpp/剑指Offer-0054E-二叉搜索树的第k大节点.cpp">🎉</a>|
 |《剑指Offer》0055|二叉树的深度I|Easy|<a href="cpp/剑指Offer-0055E-二叉树的深度I.cpp">🎉</a>|
 |《剑指Offer》0055|平衡二叉树II|Easy|<a href="cpp/剑指Offer-0055E-平衡二叉树II.cpp">🎉</a>|
+|《剑指Offer》0056|数组中数字出现的次数|Middle|<a href="cpp/剑指Offer-0056M-数组中数字出现的次数.cpp">🎉</a>|
+|《剑指Offer》0056|数组中数字出现的次数II|Middle|<a href="cpp/剑指Offer-0056M-数组中数字出现的次数II.cpp">🎉</a>|
 |《剑指Offer》0057|和为s的两个数字|Easy|<a href="cpp/剑指Offer-0057E-和为s的两个数字.cpp">🎉</a>|
 |《剑指Offer》0058|II左旋转字符串|Easy|<a href="cpp/剑指Offer-0058E-II左旋转字符串.cpp">🎉</a>|
 |《剑指Offer》0058|翻转单词顺序|Easy|<a href="cpp/剑指Offer-0058E-翻转单词顺序.cpp">🎉</a>|
@@ -198,7 +200,7 @@
 
 ## 统计
 
-本轮共完成 190 题
+本轮共完成 192 题
 - 简单：79 题
-- 中等：97 题
+- 中等：99 题
 - 困难：12 题
