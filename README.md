@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-04 21:15:07
+> PS : 最后更新：2022-02-05 21:27:53
 
 ## 进度表
 
@@ -172,6 +172,7 @@
 |《剑指Offer》0035|复杂链表的复制|Middle|<a href="cpp/剑指Offer-0035M-复杂链表的复制.cpp">🎉</a>|
 |《剑指Offer》0036|二叉搜索树与双向链表|Middle|<a href="cpp/剑指Offer-0036M-二叉搜索树与双向链表.cpp">🎉</a>|
 |《剑指Offer》0038|字符串的排列|Middle|<a href="cpp/剑指Offer-0038M-字符串的排列.cpp">🎉</a>|
+|《剑指Offer》0039|数组中出现次数超过一半的数字|Easy|<a href="cpp/剑指Offer-0039E-数组中出现次数超过一半的数字.cpp">🎉</a>|
 |《剑指Offer》0040|最小的k个数|Easy|<a href="cpp/剑指Offer-0040E-最小的k个数.cpp">🎉</a>|
 |《剑指Offer》0041|数据流中的中位数|Hard|<a href="cpp/剑指Offer-0041H-数据流中的中位数.cpp">🎉</a>|
 |《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
@@ -195,12 +196,13 @@
 |《剑指Offer》0063|股票的最大利润|Middle|<a href="cpp/剑指Offer-0063M-股票的最大利润.cpp">🎉</a>|
 |《剑指Offer》0064|求1+2+…+n|Middle|<a href="cpp/剑指Offer-0064M-求1+2+…+n.cpp">🎉</a>|
 |《剑指Offer》0065|不用加减乘除做加法|Easy|<a href="cpp/剑指Offer-0065E-不用加减乘除做加法.cpp">🎉</a>|
+|《剑指Offer》0066|构建乘积数组|Middle|<a href="cpp/剑指Offer-0066M-构建乘积数组.cpp">🎉</a>|
 |《剑指Offer》0068|二叉搜索树的最近公共祖先I|Easy|<a href="cpp/剑指Offer-0068E-二叉搜索树的最近公共祖先I.cpp">🎉</a>|
 |《剑指Offer》0068|二叉树的最近公共祖先II|Easy|<a href="cpp/剑指Offer-0068E-二叉树的最近公共祖先II.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 192 题
-- 简单：79 题
-- 中等：99 题
+本轮共完成 194 题
+- 简单：80 题
+- 中等：100 题
 - 困难：12 题
