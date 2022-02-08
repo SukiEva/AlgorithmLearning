@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-07 21:09:46
+> PS : 最后更新：2022-02-08 21:58:28
 
 ## 进度表
 
@@ -165,6 +165,7 @@
 |《剑指Offer》0028|对称的二叉树|Easy|<a href="cpp/剑指Offer-0028E-对称的二叉树.cpp">🎉</a>|
 |《剑指Offer》0029|顺时针打印矩阵|Easy|<a href="cpp/剑指Offer-0029E-顺时针打印矩阵.cpp">🎉</a>|
 |《剑指Offer》0030|包含min函数的栈|Easy|<a href="cpp/剑指Offer-0030E-包含min函数的栈.cpp">🎉</a>|
+|《剑指Offer》0031|栈的压入弹出序列|Middle|<a href="cpp/剑指Offer-0031M-栈的压入弹出序列.cpp">🎉</a>|
 |《剑指Offer》0032|从上到下打印二叉树II|Easy|<a href="cpp/剑指Offer-0032E-从上到下打印二叉树II.cpp">🎉</a>|
 |《剑指Offer》0032|从上到下打印二叉树I|Middle|<a href="cpp/剑指Offer-0032M-从上到下打印二叉树I.cpp">🎉</a>|
 |《剑指Offer》0032|从上到下打印二叉树III|Middle|<a href="cpp/剑指Offer-0032M-从上到下打印二叉树III.cpp">🎉</a>|
@@ -190,20 +191,23 @@
 |《剑指Offer》0055|平衡二叉树II|Easy|<a href="cpp/剑指Offer-0055E-平衡二叉树II.cpp">🎉</a>|
 |《剑指Offer》0056|数组中数字出现的次数|Middle|<a href="cpp/剑指Offer-0056M-数组中数字出现的次数.cpp">🎉</a>|
 |《剑指Offer》0056|数组中数字出现的次数II|Middle|<a href="cpp/剑指Offer-0056M-数组中数字出现的次数II.cpp">🎉</a>|
+|《剑指Offer》0057|II和为s的连续正数序列|Easy|<a href="cpp/剑指Offer-0057E-II和为s的连续正数序列.cpp">🎉</a>|
 |《剑指Offer》0057|和为s的两个数字|Easy|<a href="cpp/剑指Offer-0057E-和为s的两个数字.cpp">🎉</a>|
 |《剑指Offer》0058|II左旋转字符串|Easy|<a href="cpp/剑指Offer-0058E-II左旋转字符串.cpp">🎉</a>|
 |《剑指Offer》0058|翻转单词顺序|Easy|<a href="cpp/剑指Offer-0058E-翻转单词顺序.cpp">🎉</a>|
 |《剑指Offer》0061|扑克牌中的顺子|Easy|<a href="cpp/剑指Offer-0061E-扑克牌中的顺子.cpp">🎉</a>|
+|《剑指Offer》0062|圆圈中最后剩下的数字|Easy|<a href="cpp/剑指Offer-0062E-圆圈中最后剩下的数字.cpp">🎉</a>|
 |《剑指Offer》0063|股票的最大利润|Middle|<a href="cpp/剑指Offer-0063M-股票的最大利润.cpp">🎉</a>|
 |《剑指Offer》0064|求1+2+…+n|Middle|<a href="cpp/剑指Offer-0064M-求1+2+…+n.cpp">🎉</a>|
 |《剑指Offer》0065|不用加减乘除做加法|Easy|<a href="cpp/剑指Offer-0065E-不用加减乘除做加法.cpp">🎉</a>|
 |《剑指Offer》0066|构建乘积数组|Middle|<a href="cpp/剑指Offer-0066M-构建乘积数组.cpp">🎉</a>|
+|《剑指Offer》0067|把字符串转换成整数|Middle|<a href="cpp/剑指Offer-0067M-把字符串转换成整数.cpp">🎉</a>|
 |《剑指Offer》0068|二叉搜索树的最近公共祖先I|Easy|<a href="cpp/剑指Offer-0068E-二叉搜索树的最近公共祖先I.cpp">🎉</a>|
 |《剑指Offer》0068|二叉树的最近公共祖先II|Easy|<a href="cpp/剑指Offer-0068E-二叉树的最近公共祖先II.cpp">🎉</a>|
 
 ## 统计
 
-本轮共完成 195 题
-- 简单：81 题
-- 中等：100 题
+本轮共完成 199 题
+- 简单：83 题
+- 中等：102 题
 - 困难：12 题
