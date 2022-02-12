@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-11 20:23:06
+> PS : 最后更新：2022-02-12 21:44:10
 
 ## 进度表
 
@@ -158,6 +158,7 @@
 |《剑指Offer》0015|二进制中1的个数|Easy|<a href="cpp/剑指Offer-0015E-二进制中1的个数.cpp">🎉</a>|
 |《剑指Offer》0016|数值的整数次方|Middle|<a href="cpp/剑指Offer-0016M-数值的整数次方.cpp">🎉</a>|
 |《剑指Offer》0018|删除链表的节点|Easy|<a href="cpp/剑指Offer-0018E-删除链表的节点.cpp">🎉</a>|
+|《剑指Offer》0019|正则表达式匹配|Hard|<a href="cpp/剑指Offer-0019H-正则表达式匹配.cpp">🎉</a>|
 |《剑指Offer》0021|调整数组顺序使奇数位于偶数前面|Easy|<a href="cpp/剑指Offer-0021E-调整数组顺序使奇数位于偶数前面.cpp">🎉</a>|
 |《剑指Offer》0022|链表中倒数第k个节点|Easy|<a href="cpp/剑指Offer-0022E-链表中倒数第k个节点.cpp">🎉</a>|
 |《剑指Offer》0024|反转链表|Easy|<a href="cpp/剑指Offer-0024E-反转链表.cpp">🎉</a>|
@@ -185,6 +186,7 @@
 |《剑指Offer》0046|把数字翻译成字符串|Middle|<a href="cpp/剑指Offer-0046M-把数字翻译成字符串.cpp">🎉</a>|
 |《剑指Offer》0047|礼物的最大价值|Middle|<a href="cpp/剑指Offer-0047M-礼物的最大价值.cpp">🎉</a>|
 |《剑指Offer》0048|最长不含重复字符的子字符串|Middle|<a href="cpp/剑指Offer-0048M-最长不含重复字符的子字符串.cpp">🎉</a>|
+|《剑指Offer》0049|丑数|Middle|<a href="cpp/剑指Offer-0049M-丑数.cpp">🎉</a>|
 |《剑指Offer》0050|第一个只出现一次的字符|Easy|<a href="cpp/剑指Offer-0050E-第一个只出现一次的字符.cpp">🎉</a>|
 |《剑指Offer》0052|两个链表的第一个公共节点|Easy|<a href="cpp/剑指Offer-0052E-两个链表的第一个公共节点.cpp">🎉</a>|
 |《剑指Offer》0053|0～n-1中缺失的数字|Easy|<a href="cpp/剑指Offer-0053E-0～n-1中缺失的数字.cpp">🎉</a>|
@@ -200,6 +202,7 @@
 |《剑指Offer》0058|翻转单词顺序|Easy|<a href="cpp/剑指Offer-0058E-翻转单词顺序.cpp">🎉</a>|
 |《剑指Offer》0059|I滑动窗口的最大值|Hard|<a href="cpp/剑指Offer-0059H-I滑动窗口的最大值.cpp">🎉</a>|
 |《剑指Offer》0059|II队列的最大值|Middle|<a href="cpp/剑指Offer-0059M-II队列的最大值.cpp">🎉</a>|
+|《剑指Offer》0060|n个骰子的点数|Middle|<a href="cpp/剑指Offer-0060M-n个骰子的点数.cpp">🎉</a>|
 |《剑指Offer》0061|扑克牌中的顺子|Easy|<a href="cpp/剑指Offer-0061E-扑克牌中的顺子.cpp">🎉</a>|
 |《剑指Offer》0062|圆圈中最后剩下的数字|Easy|<a href="cpp/剑指Offer-0062E-圆圈中最后剩下的数字.cpp">🎉</a>|
 |《剑指Offer》0063|股票的最大利润|Middle|<a href="cpp/剑指Offer-0063M-股票的最大利润.cpp">🎉</a>|
@@ -212,7 +215,7 @@
 
 ## 统计
 
-本轮共完成 204 题
+本轮共完成 207 题
 - 简单：84 题
-- 中等：103 题
-- 困难：15 题
+- 中等：105 题
+- 困难：16 题

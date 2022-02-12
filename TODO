@@ -52,12 +52,12 @@
 // 0343 https://leetcode-cn.com/problems/integer-break/
 // 0096 https://leetcode-cn.com/problems/unique-binary-search-trees/
 * 0494 https://leetcode-cn.com/problems/target-sum/
-0377 https://leetcode-cn.com/problems/combination-sum-iv/
-0139 https://leetcode-cn.com/problems/word-break/
+// 0377 https://leetcode-cn.com/problems/combination-sum-iv/
+// 0139 https://leetcode-cn.com/problems/word-break/
 // 打家劫舍
-0198 https://leetcode-cn.com/problems/house-robber/
-0213 https://leetcode-cn.com/problems/house-robber-ii/
-0337 https://leetcode-cn.com/problems/house-robber-iii/
+// 0198 https://leetcode-cn.com/problems/house-robber/
+// 0213 https://leetcode-cn.com/problems/house-robber-ii/
+* 0337 https://leetcode-cn.com/problems/house-robber-iii/
 // 股票买卖
 0123 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
 0309 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
@@ -92,3 +92,5 @@
 0062 https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
 0020 https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/
 0037 https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/
+0019 https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/
+0049 https://leetcode-cn.com/problems/chou-shu-lcof/
