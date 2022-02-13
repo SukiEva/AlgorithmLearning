@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-12 21:44:10
+> PS : 最后更新：2022-02-13 22:09:45
 
 ## 进度表
 
@@ -157,6 +157,7 @@
 |《剑指Offer》0014|剪绳子II|Middle|<a href="cpp/剑指Offer-0014M-剪绳子II.cpp">🎉</a>|
 |《剑指Offer》0015|二进制中1的个数|Easy|<a href="cpp/剑指Offer-0015E-二进制中1的个数.cpp">🎉</a>|
 |《剑指Offer》0016|数值的整数次方|Middle|<a href="cpp/剑指Offer-0016M-数值的整数次方.cpp">🎉</a>|
+|《剑指Offer》0017|打印从1到最大的n位数|Easy|<a href="cpp/剑指Offer-0017E-打印从1到最大的n位数.cpp">🎉</a>|
 |《剑指Offer》0018|删除链表的节点|Easy|<a href="cpp/剑指Offer-0018E-删除链表的节点.cpp">🎉</a>|
 |《剑指Offer》0019|正则表达式匹配|Hard|<a href="cpp/剑指Offer-0019H-正则表达式匹配.cpp">🎉</a>|
 |《剑指Offer》0021|调整数组顺序使奇数位于偶数前面|Easy|<a href="cpp/剑指Offer-0021E-调整数组顺序使奇数位于偶数前面.cpp">🎉</a>|
@@ -182,12 +183,15 @@
 |《剑指Offer》0040|最小的k个数|Easy|<a href="cpp/剑指Offer-0040E-最小的k个数.cpp">🎉</a>|
 |《剑指Offer》0041|数据流中的中位数|Hard|<a href="cpp/剑指Offer-0041H-数据流中的中位数.cpp">🎉</a>|
 |《剑指Offer》0042|连续子数组的最大和|Easy|<a href="cpp/剑指Offer-0042E-连续子数组的最大和.cpp">🎉</a>|
+|《剑指Offer》0043|1~n整数中1出现的次数|Hard|<a href="cpp/剑指Offer-0043H-1~n整数中1出现的次数.cpp">🎉</a>|
+|《剑指Offer》0044|数字序列中某一位的数字|Middle|<a href="cpp/剑指Offer-0044M-数字序列中某一位的数字.cpp">🎉</a>|
 |《剑指Offer》0045|把数组排成最小的数|Middle|<a href="cpp/剑指Offer-0045M-把数组排成最小的数.cpp">🎉</a>|
 |《剑指Offer》0046|把数字翻译成字符串|Middle|<a href="cpp/剑指Offer-0046M-把数字翻译成字符串.cpp">🎉</a>|
 |《剑指Offer》0047|礼物的最大价值|Middle|<a href="cpp/剑指Offer-0047M-礼物的最大价值.cpp">🎉</a>|
 |《剑指Offer》0048|最长不含重复字符的子字符串|Middle|<a href="cpp/剑指Offer-0048M-最长不含重复字符的子字符串.cpp">🎉</a>|
 |《剑指Offer》0049|丑数|Middle|<a href="cpp/剑指Offer-0049M-丑数.cpp">🎉</a>|
 |《剑指Offer》0050|第一个只出现一次的字符|Easy|<a href="cpp/剑指Offer-0050E-第一个只出现一次的字符.cpp">🎉</a>|
+|《剑指Offer》0051|数组中的逆序对|Hard|<a href="cpp/剑指Offer-0051H-数组中的逆序对.cpp">🎉</a>|
 |《剑指Offer》0052|两个链表的第一个公共节点|Easy|<a href="cpp/剑指Offer-0052E-两个链表的第一个公共节点.cpp">🎉</a>|
 |《剑指Offer》0053|0～n-1中缺失的数字|Easy|<a href="cpp/剑指Offer-0053E-0～n-1中缺失的数字.cpp">🎉</a>|
 |《剑指Offer》0053|在排序数组中查找数字I|Easy|<a href="cpp/剑指Offer-0053E-在排序数组中查找数字I.cpp">🎉</a>|
@@ -215,7 +219,7 @@
 
 ## 统计
 
-本轮共完成 207 题
-- 简单：84 题
-- 中等：105 题
-- 困难：16 题
+本轮共完成 211 题
+- 简单：85 题
+- 中等：106 题
+- 困难：18 题
