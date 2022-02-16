@@ -63,14 +63,14 @@
 // 0309 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 // 子序列
 // 0300 https://leetcode-cn.com/problems/longest-increasing-subsequence/
-0718 https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
-1143 https://leetcode-cn.com/problems/longest-common-subsequence/
+// 0718 https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
+// 1143 https://leetcode-cn.com/problems/longest-common-subsequence/
 // 编辑距离
-0583 https://leetcode-cn.com/problems/delete-operation-for-two-strings/
-0072 https://leetcode-cn.com/problems/edit-distance/
+* 0583 https://leetcode-cn.com/problems/delete-operation-for-two-strings/
+* 0072 https://leetcode-cn.com/problems/edit-distance/
 // 回文
-0647 https://leetcode-cn.com/problems/palindromic-substrings/
-0516 https://leetcode-cn.com/problems/longest-palindromic-subsequence/
+* 0647 https://leetcode-cn.com/problems/palindromic-substrings/
+* 0516 https://leetcode-cn.com/problems/longest-palindromic-subsequence/
 
 
 /****** 剑指Offer ********/
