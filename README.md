@@ -1,7 +1,7 @@
 # LeetCode
 
 本仓库为个人刷题学习仓库，记录学习过程
-> PS : 最后更新：2022-02-17 21:26:34
+> PS : 最后更新：2022-02-22 20:18:24
 
 ## 进度表
 
@@ -12,12 +12,14 @@
 |0003|无重复字符的最长子串|Middle|<a href="cpp/0003M-无重复字符的最长子串.cpp">🎉</a>|
 |0005|最长回文子串|Middle|<a href="cpp/0005M-最长回文子串.cpp">🎉</a>|
 |0008|字符串转换整数|Middle|<a href="cpp/0008M-字符串转换整数.cpp">🎉</a>|
+|0009|回文数|Easy|<a href="cpp/0009E-回文数.cpp">🎉</a>|
 |0015|三数之和|Middle|<a href="cpp/0015M-三数之和.cpp">🎉</a>|
 |0017|电话号码的字母组合|Middle|<a href="cpp/0017M-电话号码的字母组合.cpp">🎉</a>|
 |0018|四数之和|Middle|<a href="cpp/0018M-四数之和.cpp">🎉</a>|
 |0019|删除链表的倒数第N个结点|Middle|<a href="cpp/0019M-删除链表的倒数第N个结点.cpp">🎉</a>|
 |0020|有效的括号|Easy|<a href="cpp/0020E-有效的括号.cpp">🎉</a>|
 |0021|合并两个有序链表|Easy|<a href="cpp/0021E-合并两个有序链表.cpp">🎉</a>|
+|0022|括号生成|Middle|<a href="cpp/0022M-括号生成.cpp">🎉</a>|
 |0023|合并K个升序链表|Hard|<a href="cpp/0023H-合并K个升序链表.cpp">🎉</a>|
 |0024|两两交换链表中的节点|Middle|<a href="cpp/0024M-两两交换链表中的节点.cpp">🎉</a>|
 |0025|K个一组翻转链表|Hard|<a href="cpp/0025H-K个一组翻转链表.cpp">🎉</a>|
@@ -39,6 +41,7 @@
 |0063|不同路径II|Middle|<a href="cpp/0063M-不同路径II.cpp">🎉</a>|
 |0070|爬楼梯|Easy|<a href="cpp/0070E-爬楼梯.cpp">🎉</a>|
 |0072|编辑距离|Hard|<a href="cpp/0072H-编辑距离.cpp">🎉</a>|
+|0076|最小覆盖子串|Hard|<a href="cpp/0076H-最小覆盖子串.cpp">🎉</a>|
 |0077|组合|Middle|<a href="cpp/0077M-组合.cpp">🎉</a>|
 |0078|子集|Middle|<a href="cpp/0078M-子集.cpp">🎉</a>|
 |0082|删除排序链表中的重复元素II|Middle|<a href="cpp/0082M-删除排序链表中的重复元素II.cpp">🎉</a>|
@@ -75,6 +78,7 @@
 |0151|翻转字符串里的单词|Middle|<a href="cpp/0151M-翻转字符串里的单词.cpp">🎉</a>|
 |0152|乘积最大子数组|Middle|<a href="cpp/0152M-乘积最大子数组.cpp">🎉</a>|
 |0160|相交链表|Easy|<a href="cpp/0160E-相交链表.cpp">🎉</a>|
+|0179|最大数|Middle|<a href="cpp/0179M-最大数.cpp">🎉</a>|
 |0188|买卖股票的最佳时机IV|Hard|<a href="cpp/0188H-买卖股票的最佳时机IV.cpp">🎉</a>|
 |0198|打家劫舍|Middle|<a href="cpp/0198M-打家劫舍.cpp">🎉</a>|
 |0199|二叉树的右视图|Middle|<a href="cpp/0199M-二叉树的右视图.cpp">🎉</a>|
@@ -87,7 +91,10 @@
 |0215|数组中的第K个最大元素|Middle|<a href="cpp/0215M-数组中的第K个最大元素.cpp">🎉</a>|
 |0216|组合总和III|Middle|<a href="cpp/0216M-组合总和III.cpp">🎉</a>|
 |0222|完全二叉树的节点个数|Middle|<a href="cpp/0222M-完全二叉树的节点个数.cpp">🎉</a>|
+|0224|基本计算器|Hard|<a href="cpp/0224H-基本计算器.cpp">🎉</a>|
 |0226|翻转二叉树|Easy|<a href="cpp/0226E-翻转二叉树.cpp">🎉</a>|
+|0227|基本计算器II|Middle|<a href="cpp/0227M-基本计算器II.cpp">🎉</a>|
+|0231|2的幂|Easy|<a href="cpp/0231E-2的幂.cpp">🎉</a>|
 |0235|二叉搜索树的最近公共祖先|Easy|<a href="cpp/0235E-二叉搜索树的最近公共祖先.cpp">🎉</a>|
 |0236|二叉树的最近公共祖先|Middle|<a href="cpp/0236M-二叉树的最近公共祖先.cpp">🎉</a>|
 |0239|滑动窗口最大值|Hard|<a href="cpp/0239H-滑动窗口最大值.cpp">🎉</a>|
@@ -111,6 +118,7 @@
 |0404|左叶子之和|Easy|<a href="cpp/0404E-左叶子之和.cpp">🎉</a>|
 |0415|字符串相加|Easy|<a href="cpp/0415E-字符串相加.cpp">🎉</a>|
 |0416|分割等和子集|Middle|<a href="cpp/0416M-分割等和子集.cpp">🎉</a>|
+|0445|两数相加II|Middle|<a href="cpp/0445M-两数相加II.cpp">🎉</a>|
 |0450|删除二叉搜索树中的节点|Middle|<a href="cpp/0450M-删除二叉搜索树中的节点.cpp">🎉</a>|
 |0454|四数相加II|Middle|<a href="cpp/0454M-四数相加II.cpp">🎉</a>|
 |0455|分发饼干|Easy|<a href="cpp/0455E-分发饼干.cpp">🎉</a>|
@@ -142,6 +150,7 @@
 |0718|最长重复子数组|Middle|<a href="cpp/0718M-最长重复子数组.cpp">🎉</a>|
 |0739|每日温度|Middle|<a href="cpp/0739M-每日温度.cpp">🎉</a>|
 |0746|使用最小花费爬楼梯|Easy|<a href="cpp/0746E-使用最小花费爬楼梯.cpp">🎉</a>|
+|0772|基本计算器III|Hard|<a href="cpp/0772H-基本计算器III.cpp">🎉</a>|
 |0876|链表的中间结点|Easy|<a href="cpp/0876E-链表的中间结点.cpp">🎉</a>|
 |0912|排序数组|Middle|<a href="cpp/0912M-排序数组.cpp">🎉</a>|
 |0977|有序数组的平方|Easy|<a href="cpp/0977E-有序数组的平方.cpp">🎉</a>|
@@ -225,7 +234,7 @@
 
 ## 统计
 
-本轮共完成 217 题
-- 简单：87 题
-- 中等：110 题
-- 困难：18 题
+本轮共完成 226 题
+- 简单：89 题
+- 中等：114 题
+- 困难：21 题
