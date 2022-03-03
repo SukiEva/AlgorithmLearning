@@ -9,22 +9,9 @@ package main
 import "fmt"
 
 func main() {
-	ch1 := make(chan int)
-	ch2 := make(chan int)
-	go func() {
-		for i := 1; i <= 10; i += 2 {
-			<-ch2
-			fmt.Println(i)
-			ch1 <- 0
-		}
-	}()
-	go func() {
-		for i := 2; i <= 10; i += 2 {
-			<-ch1
-			fmt.Println(i)
-			ch2 <- 0
-		}
-	}()
-	ch2 <- 0
-	select {}
+	
+	var mp map[string]int
+	
+
+	fmt.Println(mp["v"])
 }
