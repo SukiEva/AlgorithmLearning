@@ -8,6 +8,15 @@
 
 ## 难题整理
 
+### 字符串
+- [0151 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)：双指针移动<a href="cpp/0151M-翻转字符串里的单词.cpp">🎉</a>
+
+### 二叉树
+- [0111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)：递归判断<a href="cpp/0111E-二叉树的最小深度.cpp">🎉</a>
+- [0222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)：完全二叉树的性质<a href="cpp/0222M-完全二叉树的节点个数.cpp">🎉</a>
+- [0110 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)：自底向上$O(n)$<a href="cpp/0110E-平衡二叉树.cpp">🎉</a>
+- [0450 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)：右子最左<a href="cpp/0450M-删除二叉搜索树中的节点.cpp">🎉</a>
+
 
 ### 回溯
 - [0040 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)：排序去重<a href="cpp/0040M-组合总和II.cpp">🎉</a>
