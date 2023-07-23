@@ -1,0 +1,57 @@
+problems:
+  binarySearch:
+    number: 704
+    title: 二分查找
+    difficulty: easy
+    url: https://leetcode.cn/problems/binary-search/
+    solutions:
+      - solutions/java/BinarySearch
+  searchInsertPosition:
+    number: 35
+    title: 搜索插入位置
+    difficulty: easy
+    url: https://leetcode.cn/problems/search-insert-position/
+    solutions:
+      - solutions/java/SearchInsertPosition
+  findFirstAndLastPositionOfElementInSortedArray:
+    number: 34
+    title: 在排序数组中查找元素的第一个和最后一个位置
+    difficulty: middle
+    url: https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
+    solutions:
+      - solutions/java/FindFirstAndLastPositionOfElementInSortedArray
+  sqrtx:
+    number: 69
+    title: x 的平方根
+    difficulty: easy
+    url: https://leetcode.cn/problems/sqrtx/
+    solutions:
+      - solutions/java/Sqrtx
+  validPerfectSquare:
+    number: 367
+    title: 有效的完全平方数
+    difficulty: easy
+    url: https://leetcode.cn/problems/valid-perfect-square/
+    solutions:
+      - solutions/java/ValidPerfectSquare
+  removeElement:
+    number: 27
+    title: 移除元素
+    difficulty: easy
+    url: https://leetcode.cn/problems/remove-element/
+    solutions:
+      - solutions/java/RemoveElement
+  squaresOfASortedArray:
+    number: 977
+    title: 有序数组的平方
+    difficulty: easy
+    url: https://leetcode.cn/problems/squares-of-a-sorted-array/
+    solutions:
+      - solutions/java/SquaresOfASortedArray
+  minimumSizeSubarraySum:
+    number: 209
+    title: 长度最小的子数组
+    difficulty: middle
+    url: https://leetcode.cn/problems/minimum-size-subarray-sum/
+    solutions:
+      - solutions/java/MinimumSizeSubarraySum
