@@ -16,7 +16,7 @@ problems:
   findFirstAndLastPositionOfElementInSortedArray:
     number: 34
     title: 在排序数组中查找元素的第一个和最后一个位置
-    difficulty: middle
+    difficulty: medium
     url: https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
     solutions:
       - solutions/java/FindFirstAndLastPositionOfElementInSortedArray
@@ -51,7 +51,35 @@ problems:
   minimumSizeSubarraySum:
     number: 209
     title: 长度最小的子数组
-    difficulty: middle
+    difficulty: medium
     url: https://leetcode.cn/problems/minimum-size-subarray-sum/
     solutions:
       - solutions/java/MinimumSizeSubarraySum
+  reverseLinkedList:
+    number: 206
+    title: 反转链表
+    difficulty: easy
+    url: https://leetcode.cn/problems/reverse-linked-list/
+    solutions:
+      - solutions/java/ReverseLinkedList
+  swapNodesInPairs:
+    number: 24
+    title: 两两交换链表中的节点
+    difficulty: medium
+    url: https://leetcode.cn/problems/swap-nodes-in-pairs/
+    solutions:
+      - solutions/java/SwapNodesInPairs
+  removeNthNodeFromEndOfList:
+    number: 19
+    title: 删除链表的倒数第 N 个结点
+    difficulty: medium
+    url: https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
+    solutions:
+      - solutions/java/RemoveNthNodeFromEndOfList
+  intersectionOfTwoLinkedLists:
+    number: 160
+    title: 相交链表
+    difficulty: easy
+    url: https://leetcode.cn/problems/intersection-of-two-linked-lists/
+    solutions:
+      - solutions/java/IntersectionOfTwoLinkedLists
